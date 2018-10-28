@@ -1,4 +1,5 @@
-const sumOfOther = (arr = [])=>{
+
+module.exports = function sumOfOther (arr = []) {
     const rez = [];
     let sum = 0;
     arr.forEach((element) => sum = sum+element); 
