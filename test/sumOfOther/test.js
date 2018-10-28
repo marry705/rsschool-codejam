@@ -1,5 +1,5 @@
-
-var sumOfOther = require('../../src/sumOfOther/sumOfOther');
+const assert = require('assert');
+const sumOfOther = require('../../src/sumOfOther/sumOfOther');
 
 describe('sumOfOther', () => {
     it('sum', () => {
